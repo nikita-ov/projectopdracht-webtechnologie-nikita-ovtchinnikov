@@ -1,0 +1,82 @@
+/* KLeuren */
+:root {
+  /* Achtergronden */
+  --bg-main: #0e0e0e;
+  --bg-light: #1a1a1a;
+  --bg-dark: #050505;
+
+  /* Tekst */
+  --text-main: #e0e0e0;
+  --text-light: #f0f0f0;
+  --text-dark: #b0b0b0;
+
+  /* Primaire knoppen */
+  --btn-main: #d92e2e;
+  --btn-light: #f05555;
+  --btn-dark: #9b1f1f;
+
+  /* Secundaire accenten */
+  --accent-main: #f5a623;
+  --accent-light: #ffc25c;
+  --accent-dark: #b37719;
+
+  /* links */
+  --link-main: #8ed6ff;
+  --link-light: #b3e0ff;
+  --link-dark: #5f9ecf;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;    
+}
+
+#container {
+    width: 90%;
+    max-width: 1000px;
+}
+
+/* Tekst */
+
+h1, h2, h3, h4, h5 {
+    color: var(--accent-light);
+    margin: 0;
+}
+
+p {
+    color: var(--text-main);
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: var(--link-main);
+    text-decoration: solid;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: var(--link-light);
+}
+
+/* Section */
+section {
+    background-color: var(--bg-light);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+    border-top: 1px solid #1f1f1f;
+    font-size: 0.9rem;
+}
