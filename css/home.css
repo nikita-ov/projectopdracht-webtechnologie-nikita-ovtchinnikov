@@ -1,0 +1,50 @@
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#btn-shop {
+    display: inline-block;
+    padding: 10px 25px;
+    background: linear-gradient(145deg, #2b2b2b, #1a1a1a);
+    color: var(--btn-main);
+    border: 1px solid #444;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: solid;
+    transition: all 0.3s ease;
+}
+
+.product {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    padding: 1rem;
+    margin: 10px;
+    /* box-shadow: 0 4px 8px rgba(0,0,0,0.3); */
+}
+
+#chloranthy {
+    background-image: url(../assets/images/Chloranthy\ Ring.png);
+}
+
+#sherma {
+    background-image: url(../assets/images/Sherma\ T-shirt.png);
+}
+
+#catarina {
+    background-image: url(../assets/images/Catarina\ Helm\ Hanger.png);
+}
+
+div {
+    background-color: var(--bg-light);
+}
+

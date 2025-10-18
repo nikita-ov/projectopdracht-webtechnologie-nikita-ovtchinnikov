@@ -30,14 +30,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--bg-main);
     color: var(--text-main);
-    margin: 0 auto;
     padding: 0;
-    text-align: center;    
-}
-
-#container {
-    width: 90%;
-    max-width: 1000px;
+    text-align: center;  
 }
 
 /* Tekst */
