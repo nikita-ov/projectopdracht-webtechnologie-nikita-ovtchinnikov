@@ -1,3 +1,7 @@
+h1 {
+    margin-bottom: 30px;
+}
+
 .container {
     width: 90%;
     max-width: 1000px;
@@ -7,6 +11,7 @@
 #btn-shop {
     display: inline-block;
     padding: 10px 25px;
+    margin-bottom: 20px;
     background: linear-gradient(145deg, #2b2b2b, #1a1a1a);
     color: var(--btn-main);
     border: 1px solid #444;
@@ -29,7 +34,7 @@
     color: white;
     padding: 1rem;
     margin: 10px;
-    /* box-shadow: 0 4px 8px rgba(0,0,0,0.3); */
+    
 }
 
 #chloranthy {
@@ -46,5 +51,23 @@
 
 div {
     background-color: var(--bg-light);
+    border-radius: 10px;
 }
 
+#about-me {
+    border: var(--text-light) solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+#profile-photo {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--text-light);
+
+}

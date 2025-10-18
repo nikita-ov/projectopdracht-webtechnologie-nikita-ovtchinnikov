@@ -39,6 +39,25 @@ body {
 h1, h2, h3, h4, h5 {
     color: var(--accent-light);
     margin: 0;
+    font-style: solid;
+}
+
+h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 17px;
 }
 
 p {
@@ -62,7 +81,7 @@ section {
     background-color: var(--bg-light);
     border-radius: 10px;
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px;
 }
 
 /* footer */
