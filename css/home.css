@@ -23,11 +23,15 @@ h1 {
 }
 
 .product {
+    display: grid;
+    gap: 1.5rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
     border-radius: 1rem;
     display: flex;
     align-items: flex-end;
@@ -55,6 +59,9 @@ div {
 }
 
 #about-me {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     border: var(--text-light) solid 1px;
     display: flex;
     flex-direction: column;
@@ -69,5 +76,37 @@ div {
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--text-light);
+}
 
+@media (min-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: start;
+    }
+
+    .product {
+        grid-template-columns: repeat(3, 1fr);
+        width: 500px;
+        height: 500px;
+    }
+
+    .container {
+        grid-template-areas: 
+        "welcome bestsellers"
+        "about-me bestsellers";
+    }
+
+    #welcome {
+        grid-area: welcome;
+    }
+
+    #bestsellers {
+        grid-area: bestsellers;
+    }
+
+    #about-me {
+        grid-area: about-me;
+    }
 }
