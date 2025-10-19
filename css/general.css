@@ -26,6 +26,20 @@
   --link-dark: #5f9ecf;
 }
 
+/* Body */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    padding: 0;
+    text-align: center;  
+}
+
 /* Navigatie + logo */
 header {
     display: flex;
@@ -78,20 +92,6 @@ header {
     cursor: pointer;
 }
 
-/* Body */
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 1440px;
-    margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
-    background-color: var(--bg-main);
-    color: var(--text-main);
-    padding: 0;
-    text-align: center;  
-}
-
 /* Tekst */
 
 h1, h2, h3, h4, h5 {
@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
+    color: var(--accent-dark);
     font-size: 1.8rem;
 }
 
