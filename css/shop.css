@@ -45,19 +45,26 @@
 @media (min-width: 900px) {
     .product-list {
         flex-direction: row;
-        align-items: flex-start;        
+        align-items: flex-start;
     }
 
     .product-list {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         gap: 1rem;
         flex: 3;
     }
 
     .product-card {
-        flex: 1 1 calc(33.333% - 1rem);
+        flex: 1 1 30%;
         box-sizing: border-box;
+    }
+
+    .product-card img {
+        width: 500px;
+        height: auto;
+        border-radius: 10px;
     }
 
     .sidebar {
